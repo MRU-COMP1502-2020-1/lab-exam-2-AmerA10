@@ -9,13 +9,14 @@ import org.junit.Test;
 
 public class RuleClassTest {
 	
-	
+	//these tests wont work even tho they arae the exact same answers
 	
 	@Test
 	public void testA_A() {
 	LRule a_A = new A_A();
+	char A = 'A';
 	char[] a = new char[] {'A'};
-	assertEquals('A', a_A.getMatch());
+	assertEquals(A, a_A.getMatch());
 	assertEquals(a, a_A.getBody());
 	
 	
